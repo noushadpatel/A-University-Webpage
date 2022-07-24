@@ -1,0 +1,61 @@
+
+/* ------- Courses ------- */
+
+.course{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.course h1{
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Proza Libre', sans-serif;
+}
+
+.course p{
+    /* color: #fff; */
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 10px;
+    font-family: 'Taviraj', serif;
+}
+
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-col{
+    flex-basis: 31%;
+    background: #fff3f3;
+    /* border: 2px solid grey; */
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+.course-col p{
+    font-family: 'Proza Libre', sans-serif;
+}
+
+.course-col h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+
+.course-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+@media(max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
+}
